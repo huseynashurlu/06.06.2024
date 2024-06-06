@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+}
+
+nav{
+    width: 70%;
+    text-align: center;
+}
+
+.app{
+    width: 15%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.app a{
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    padding: 13px 40px;
+    font-weight: bold;
+}
+
+#Thermo{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_slide1.jpg?id=22308);
+    padding: 5rem 0;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+}
+
+
+.thermo-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thermo-all .left{
+    width: 40%;
+}
+
+.thermo-all .right{
+    width: 55%;
+}
+
+.thermo-all .right img{
+    width: 100%;
+}
+
+.thermo-all .left h1{
+    font-size: 55px;
+    color: #fff;
+}
+
+.thermo-all .left p{
+    color: #fff;
+    font-size: 17px;
+    margin: 20px 0 50px;
+}
+
+.thermo-all .left a{
+    background-color: rgb(0, 107, 166);
+    font-weight: bold;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 30px;
+    padding: 17px 40px;
+}
+
+#Products {
+    padding: 5rem 0;
+}
+
+#Products h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.pr-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pr-all .box{
+    width: 32%;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.pr-all .top img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 10px 10px 0 0;
+    filter: grayscale(0);
+    transition: .5s;
+}
+
+.pr-all .top{
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.pr-all .bottom{
+    background-color: #F2F2F2;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.pr-all .bottom-b{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-b i{
+    font-size: 13px;
+    color: grey;
+}
+
+.pr-all .box .top:hover img{
+    filter: grayscale(1);
+    transform: scale(1.2);
+}
